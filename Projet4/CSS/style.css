@@ -1,0 +1,115 @@
+.navbar{
+    background-color: rgb(173, 169, 169);
+    
+    
+}
+.nav-link, .navbar-text {
+    color: rgb(255, 255, 255)!important;
+    font-size: 1.2em;
+}
+
+.navbar ul li
+{
+ margin:0 50px; 
+}
+
+.fas{
+    margin-right: 5px;
+}
+
+.btn-primary{
+    background-color: rgb(173, 169, 169)!important;
+    border-color: rgb(173, 169, 169)!important;
+}
+
+#textarea-carousel{
+    position: absolute;
+    top: 0;
+    display: flex;
+	flex-direction: column;
+	top: 225px;
+    align-items: center;
+    margin: auto;
+	height: 100px;
+    width: 100%;
+    z-index: 1;
+}
+
+#textarea-carousel p {
+    font-size: 1.8em;
+    background-color: rgb(101,101,120,0.6);
+    color: rgb(255, 255, 255);
+    padding: 10px;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px!important;
+}
+
+h2{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px!important;
+}
+
+.creationDate{
+    margin-left: 50px;
+}
+
+#exemple-card{
+    display: flex!important;
+	flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+	width: 100%;
+}
+
+.card{
+    display: flex;
+    margin: 20px;
+}
+
+form{
+    width: 80%;
+    margin-left: 10px;
+}
+
+.nav-linkB{
+    color: rgb(57, 131, 241)!important;
+    font-size: 1.2em;
+    margin-right: 20px;
+}
+
+.newPostForm{
+    margin: 0 auto;
+}
+
+#textPostView p {
+    color: gray;
+    font-size: 1.2rem;
+    margin: 0 60px 60px 60px !important;
+}
+
+.commentBloc{
+    margin-left: 30px;
+}
+
+@media screen and (max-width: 450px){
+    #textPostView p {
+        color: gray;
+        font-size: 1.2rem;
+        margin: 0 20px 60px 20px !important;
+    }
+
+    .creationDate{
+        margin-left: 20px;
+    }
+}
+
+@media screen and (max-width: 822px){
+    #carouselExampleSlidesOnly{
+        display: none;
+    }
+}
